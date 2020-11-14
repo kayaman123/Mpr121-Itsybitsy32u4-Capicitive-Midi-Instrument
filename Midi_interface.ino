@@ -42,7 +42,7 @@ Adafruit Mpr121 & Adafruit IstsyBitsy32u4 Makey style midi instrument
 
 // touch constants
 const uint32_t BAUD_RATE = 115200;
-const uint8_t MPR121_ADDR = 0x5A;
+const uint8_t MPR121_ADDR = 0x5A; //I2c Adress of Adafruit Mpr121
 const uint8_t MPR121_INT = 4;
 
 // MPR121 datastream behaviour constants
